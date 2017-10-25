@@ -8,9 +8,9 @@ import java.util.Vector;
  */
 public class Database extends JFrame {
     static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
-    static final String DB_URL = "jdbc:mysql://localhost/contacten";
-    static final String USER = "root";
-    static final String PASS = "";
+    static final String DB_URL = "jdbc:mysql://www.tychoengberink.nl:3306/contacten";
+    static final String USER = "contacten";
+    static final String PASS = "1234";
 
     public Connection connect() {
         Connection conn = null;
