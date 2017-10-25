@@ -12,12 +12,10 @@ public class Database extends JFrame {
     static final String USER = "root";
     static final String PASS = "";
 
-    public static Connection connect() {
+    public Connection connect() {
         Connection conn = null;
         try {
-            Class.forName(JDBC_DRIVER
-
-            );
+            Class.forName(JDBC_DRIVER);
 
             System.out.println("Verbinden met database...");
             System.out.println("---------------------");
